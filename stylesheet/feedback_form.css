@@ -1,0 +1,87 @@
+.feedback-form{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-around;
+    align-items: center;
+}
+
+.checkbox-content{
+    display: flex;
+    flex-direction: column;
+    justify-content:none;
+    align-items: center;
+}
+
+.checkbox-content input[type="text"] {
+    width: 235px;
+    padding-bottom: 25px;
+    
+}
+
+.checkbox{
+    margin-bottom: 10px;
+}
+
+.options{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-family: Oswald;
+    font-style: italic;
+}
+
+.user-information{
+    display: flex;
+    flex-direction: row;
+}
+
+.user-credentials{
+    margin-right: 10px;
+}
+
+
+.options-rating{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around;
+    text-align: center;
+    margin-top: 30px;
+    font-family: Oswald;
+    font-style: italic;
+}
+
+.firstname::after,
+.email::after{
+    content:"*";
+    color: red;
+}
+
+.header-text {
+    font-size: x-large;
+}
+
+.submit-form{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 2px;
+    font-family: Oswald;
+}
+
+.submit-form:disabled, 
+button[disabled]{
+    cursor:auto;
+    opacity: 0.7;
+}
+
+.submit-form:hover{
+    opacity: 0.7;
+}
+
+
+

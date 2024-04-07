@@ -1,0 +1,10 @@
+.about-us-section{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.our-mission-text {
+    font-size: x-large;
+}

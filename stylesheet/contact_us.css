@@ -1,0 +1,17 @@
+.contact-information{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.contact-us-header{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+
+.contact-us-header p{
+    font-size: x-large;
+}

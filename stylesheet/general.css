@@ -1,0 +1,32 @@
+a{
+    font-family: Oswald;
+    background-color: transparent;
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style-type: none;
+}
+
+p{
+    color: black;
+    font-family: Oswald;
+}
+
+.container{
+    height: 100vh; 
+    width: 100%;
+}
+
+.main-page { 
+    display: block;
+    display: grid; 
+    grid-template-columns: 220px 1fr; height: 90%; column-gap: 30px;
+}
+
+
+.footer {
+    height: 10%;
+    width: 1584px;
+}
