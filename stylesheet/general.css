@@ -14,19 +14,28 @@ p{
     font-family: Oswald;
 }
 
+.body{
+    min-height: 100vh;
+    margin: 0;
+}
+
 .container{
-    height: 100vh; 
+    height: 100%;
     width: 100%;
 }
 
 .main-page { 
     display: block;
-    display: grid; 
+    display: grid;
     grid-template-columns: 220px 1fr; height: 90%; column-gap: 30px;
+    min-height: 50px;
+   
 }
 
 
 .footer {
+    min-height: 50px;
     height: 10%;
-    width: 1584px;
+    width: 100%;
+    
 }
